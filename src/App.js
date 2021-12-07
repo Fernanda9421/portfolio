@@ -1,14 +1,15 @@
-// import Navbar from './components/Navbar';
-import 'bootstrap/dist/css/bootstrap.min.css';
-import 'bootstrap-icons/font/bootstrap-icons.css';
-import 'bootstrap/dist/js/bootstrap.bundle.min';
+import './css/styles.css';
+import React from 'react';
 import Footer from './components/Footer';
+import Navbar from './components/Navbar';
 
 function App() {
   return (
-    <div className="App">
+    <>
+      <Navbar />
+
       <Footer />
-    </div>
+    </>
   );
 }
 
