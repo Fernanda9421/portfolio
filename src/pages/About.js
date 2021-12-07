@@ -12,14 +12,9 @@ class About extends React.Component {
               <div className="row justify-content-center">
                 <div className="col-lg-12 col-xxl-12">
                   <div className="my-5">
-                    <h1 className="fw-bolder mb-3">Quem Somos</h1>
+                    <h1 className="fw-bolder mb-3">Sobre mim</h1>
                     <p className="lead fw-normal text-muted mb-4">
-                      Somos pessoas que compartilham o propósito de transformar
-                      o mundo num lugar mais próspero e igualitário para as
-                      próximas gerações. Somos pessoas inconformadas,
-                      comprometidas e transparentes. Gente excepcional é, e
-                      sempre será, nosso motor e maior foco. Acreditamos que
-                      gente boa, unida por um propósito, muda o mundo.
+                      Breve apresentação pessoal
                     </p>
                   </div>
                 </div>
@@ -38,12 +33,9 @@ class About extends React.Component {
                   />
                 </div>
                 <div className="col-lg-6">
-                  <h2 className="fw-bolder">Our founding</h2>
+                  <h2 className="fw-bolder">Minha História</h2>
                   <p className="lead fw-normal text-muted mb-0">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Iusto est, ut esse a labore aliquam beatae expedita.
-                    Blanditiis impedit numquam libero molestiae et fugit
-                    cupiditate, quibusdam expedita, maiores eaque quisquam.
+                    De onde vim, acontecimentos
                   </p>
                 </div>
               </div>
@@ -61,12 +53,9 @@ class About extends React.Component {
                   />
                 </div>
                 <div className="col-lg-6">
-                  <h2 className="fw-bolder">Growth &amp; beyond</h2>
+                  <h2 className="fw-bolder">Objetivos &amp; Sonhos</h2>
                   <p className="lead fw-normal text-muted mb-0">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Iusto est, ut esse a labore aliquam beatae expedita.
-                    Blanditiis impedit numquam libero molestiae et fugit
-                    cupiditate, quibusdam expedita, maiores eaque quisquam.
+                    Objetivos
                   </p>
                 </div>
               </div>
@@ -76,13 +65,18 @@ class About extends React.Component {
           <section className="py-5 bg-light">
             <div className="container px-5 my-5">
               <div className="text-center">
-                <h2 className="fw-bolder">Our team</h2>
+                <h2 className="fw-bolder">Mídias Sociais</h2>
                 <p className="lead fw-normal text-muted mb-5">
-                  Dedicated to quality and your success
+                  Onde me encontrar
                 </p>
               </div>
               <div className="row gx-5 row-cols-1 row-cols-sm-2 row-cols-xl-4 justify-content-center">
-                {/* Team member -------------------------------------------------------*/}
+                <a href="https://www.linkedin.com/in/fernandaacarvalho/" rel="noreferrer" target="_blank">
+                  <h2><i class="bi bi-linkedin" /></h2>
+                </a>
+                <a href="https://github.com/Fernanda9421" rel="noreferrer" target="_blank">
+                  <h2><i class="bi bi-github" /></h2>
+                </a>
               </div>
             </div>
           </section>
