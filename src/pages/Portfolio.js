@@ -1,5 +1,4 @@
 import '../css/styles.css';
-// import logo from '../assets/images/topsecret.png';
 
 function Portfolio() {
   return (
@@ -8,9 +7,6 @@ function Portfolio() {
         {/* // Navigation */}
         <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
           <div className="container px-5">
-            {/* <a className="navbar-brand" href="index.html">
-              <img src={logo} alt="" width="170" />
-            </a> */}
             <button
               className="navbar-toggler"
               type="button"
