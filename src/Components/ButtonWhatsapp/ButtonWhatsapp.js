@@ -1,5 +1,5 @@
-import React, { Component } from 'react';
-import Modal from '../Modal/Modal';
+import React, { Component } from "react";
+import Modal from "../Modal/Modal";
 
 class ButtonWhatsapp extends Component {
   constructor() {
@@ -19,7 +19,7 @@ class ButtonWhatsapp extends Component {
           className="btn btn-ligth"
           onClick={() => this.setState({ isOpenWpp: true })}
         >
-          <h2><i class="bi bi-whatsapp"></i></h2>
+          <h2><i className="bi bi-whatsapp"></i></h2>
         </button>
         <Modal isOpen={isOpenWpp} onClickClose={() => this.setState({ isOpenWpp: false })}>
           <h3 className="text-center">Número para contato</h3>
