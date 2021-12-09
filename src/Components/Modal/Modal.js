@@ -1,8 +1,8 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import './modal.css';
+import React from "react";
+import ReactDOM from "react-dom";
+import "./modal.css";
 
-const portalRoot = document.getElementById('portal-root');
+const portalRoot = document.getElementById("portal-root");
 
 const Modal = ({ children, isOpen, onClickClose }) => {
   if (!isOpen) return null;
