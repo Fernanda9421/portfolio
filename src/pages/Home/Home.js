@@ -1,5 +1,5 @@
-import React, { Component } from 'react';
-import fernanda from '../../assets/images/fernanda.jpeg';
+import React, { Component } from "react";
+import fernanda from "../../assets/images/fernanda.jpeg";
 
 class Home extends Component {
   render() {
@@ -16,7 +16,7 @@ class Home extends Component {
                     </h1>
                     <p className="lead fw-normal text-white-50 mb-4">
                       Quickly design and customize responsive mobile-first sites with
-                      Bootstrap, the world’s most popular front-end open source
+                      Bootstrap, the world`s most popular front-end open source
                       toolkit!
                     </p>
                     <div className="d-grid gap-3 d-sm-flex justify-content-sm-center justify-content-xl-start">
@@ -105,7 +105,7 @@ class Home extends Component {
                 <div className="col-lg-10 col-xl-7">
                   <div className="text-center">
                     <div className="fs-4 mb-4 fst-italic">
-                      "Frase Motivacional ... alguém lembra alguma???"
+                      `Frase Motivacional ... alguém lembra alguma???`
                     </div>
                     <div className="d-flex align-items-center justify-content-center">
                       <img
@@ -159,7 +159,7 @@ class Home extends Component {
                       </a>
                       <p className="card-text mb-0">
                         Some quick example text to build on the card title and make up
-                        the bulk of the card's content.
+                        the bulk of the card`s content.
                       </p>
                     </div>
                     <div className="card-footer p-4 pt-0 bg-transparent border-top-0">
@@ -201,7 +201,7 @@ class Home extends Component {
                       <p className="card-text mb-0">
                         This text is a bit longer to illustrate the adaptive height of
                         each card. Some quick example text to build on the card title
-                        and make up the bulk of the card's content.
+                        and make up the bulk of the card`s content.
                       </p>
                     </div>
                     <div className="card-footer p-4 pt-0 bg-transparent border-top-0">
@@ -245,7 +245,7 @@ class Home extends Component {
                       </a>
                       <p className="card-text mb-0">
                         Some more quick example text to build on the card title and
-                        make up the bulk of the card's content.
+                        make up the bulk of the card`s content.
                       </p>
                     </div>
                     <div className="card-footer p-4 pt-0 bg-transparent border-top-0">
@@ -306,7 +306,7 @@ class Home extends Component {
           </section>
         </main>
       </>
-    )
+    );
   }
 }
 
