@@ -1,11 +1,11 @@
-import './css/styles.css';
-import React from 'react';
-import Footer from './Components/Footer/Footer';
-import Navbar from './Components/NavBar/Navbar';
-import About from './pages/About/About';
-import { Route, Switch } from 'react-router-dom';
-import Home from './pages/Home/Home';
-import Portfolio from './pages/Portfolio/Portfolio';
+import "./css/styles.css";
+import React from "react";
+import Footer from "./Components/Footer/Footer";
+import Navbar from "./Components/NavBar/Navbar";
+import About from "./pages/About/About";
+import { Route, Switch } from "react-router-dom";
+import Home from "./pages/Home/Home";
+import Portfolio from "./pages/Portfolio/Portfolio";
 
 function App() {
   return (
