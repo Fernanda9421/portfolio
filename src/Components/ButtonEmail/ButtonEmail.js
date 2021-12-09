@@ -1,5 +1,5 @@
-import React, { Component } from 'react';
-import Modal from '../Modal/Modal';
+import React, { Component } from "react";
+import Modal from "../Modal/Modal";
 
 class ButtonEmail extends Component {
   constructor() {
@@ -19,7 +19,7 @@ class ButtonEmail extends Component {
           className="btn btn-ligth"
           onClick={() => this.setState({ isOpen: true })}
         >
-          <h2><i class="bi bi-envelope-check"></i></h2>
+          <h2><i className="bi bi-envelope-check"></i></h2>
         </button>
         <Modal isOpen={isOpen} onClickClose={() => this.setState({ isOpen: false })}>
           <h3 className="text-center">Email para contato</h3>
