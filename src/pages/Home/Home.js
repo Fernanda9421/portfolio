@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import fernanda from "../../assets/images/fernanda.jpeg";
-import Header from "./Components/Header";
+import Header from "./Components/Header/Header";
 
 class Home extends Component {
   render() {
