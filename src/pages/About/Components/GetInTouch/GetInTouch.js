@@ -1,5 +1,5 @@
-import React, { Component } from 'react';
-import ButtonsContact from '../../../../Components/ButtonsContact/ButtonsContact';
+import React, { Component } from "react";
+import ButtonsContact from "../../../../Components/ButtonsContact/ButtonsContact";
 
 class GetInTouch extends Component {
   render() {
