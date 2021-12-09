@@ -1,4 +1,3 @@
-import "../../css/styles.css";
 import React from "react";
 import AboutMe from "./Components/AboutMe/AboutMe";
 import MyHistory from "./Components/MyHistory/MyHistory";
