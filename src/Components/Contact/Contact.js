@@ -1,6 +1,6 @@
-import React, { Component } from 'react';
-import ButtonEmail from '../ButtonEmail/ButtonEmail';
-import ButtonWhatsapp from '../ButtonWhatsapp/ButtonWhatsapp';
+import React, { Component } from "react";
+import ButtonEmail from "../ButtonEmail/ButtonEmail";
+import ButtonWhatsapp from "../ButtonWhatsapp/ButtonWhatsapp";
 
 class Contact extends Component {
   render() {
