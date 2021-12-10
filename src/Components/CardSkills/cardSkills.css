@@ -1,0 +1,21 @@
+.card-art {
+  padding: 12px;
+  background-color: #333;
+  margin-right: 35px;
+  margin-bottom: 24px;
+  font-size: 16px;
+  box-shadow: 1px 1px 12px 1px #000000;
+}
+
+.name-skill {
+  text-align: center;
+  margin: 5px;
+  padding: 5px;
+  color: white;
+  font-family: 'Baloo Bhaijaan 2', cursive;
+}
+
+.card-art:hover {
+  background-color: rgb(0, 18, 25);
+}
+
