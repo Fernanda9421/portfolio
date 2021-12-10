@@ -7,7 +7,7 @@ class ListHardSkills extends Component {
     return (
       <>
         {hardSkills.map((skill) => (
-          <CardSkills key={ skill.skill } skill={ skill } />
+          <CardSkills key={ skill.id } skill={ skill } />
         ))}
       </>
     );
