@@ -4,12 +4,8 @@ const hardSkills = [
     image: "https://www.neoteo.com/wp-content/uploads/2014/09/capture44.png",
   },
   {
-    skill: "Git",
-    image: "https://www.embarcados.com.br/wp-content/uploads/2015/02/imagem-de-destaque-39-850x510.png",
-  },
-  {
-    skill: "Github",
-    image: "https://gizmodo.uol.com.br/wp-content/blogs.dir/8/files/2020/06/github.jpg",
+    skill: "Git e Github",
+    image: "https://alyssonmach.github.io/Minicurso-Git-e-GitHub/img/5.png",
   },
   {
     skill: "HTML",
@@ -21,7 +17,7 @@ const hardSkills = [
   },
   {
     skill: "JavaScript",
-    image: "https://lh3.googleusercontent.com/proxy/ETDR2K1hTNuIXSvZz0TVul6IopLMjJt_wN4pFa6oTxhVS3qOh0Wg8TOAClVa8rvNof27xW3r_CA7MAkYQNlLHQDgFBKFhi-GwBjw7niQwpQKllLN5k5guYEuReGY-i5l2GDyHjpJ1DstjfbZdeI",
+    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/800px-Unofficial_JavaScript_logo_2.svg.png",
   },
   {
     skill: "Testes Unitários - Jest",
@@ -33,7 +29,7 @@ const hardSkills = [
   },
   {
     skill: "React Testing Library (RTL)",
-    image: "https://miro.medium.com/max/500/1*FdcfXXlYDEDNGToFjA_B4w.jpeg",
+    image: "https://frontend-stuff.com/static/7c857cadee053c761fa7e2ca3ccae895/807a7/testing.jpg",
   },
 ];
 
