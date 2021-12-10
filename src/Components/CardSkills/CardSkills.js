@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import PropTypes from "prop-types";
+import "./cardSkills.css";
 
 class CardSkills extends Component {
   render() {
@@ -8,6 +9,7 @@ class CardSkills extends Component {
       <div className="card-art">
         <div className="text-center">
           <h6 className="name-skill">{skill.skill}</h6>
+          <hr />
         </div>
       </div>
     );
