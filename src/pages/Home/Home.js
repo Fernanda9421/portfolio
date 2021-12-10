@@ -3,7 +3,6 @@ import HardSkillsSection from "./Components/HardSkillsSection/HardSkillsSection"
 import Header from "./Components/Header/Header";
 import SoftSkillsSection from "./Components/SoftSkillsSection/SoftSkillsSection";
 import TestimonialSection from "./Components/TestimonialSection/TestimonialSection";
-import "./home.css";
 
 class Home extends Component {
   render() {
@@ -16,7 +15,7 @@ class Home extends Component {
           <SoftSkillsSection />
 
           <TestimonialSection />
-          
+
           {/* Blog preview section */}
           <section className="py-5">
             <div className="container px-5 my-5">
