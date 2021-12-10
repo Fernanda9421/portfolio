@@ -1,6 +1,9 @@
 import React, { Component } from "react";
 import fernanda from "../../assets/images/fernanda.jpeg";
+import ListHardSkills from "../../Components/ListHardSkills/ListHardSkills";
+// import ListHardSkills from "../../Components/ListHardSkills/ListHardSkills";
 import Header from "./Components/Header/Header";
+import "./home.css";
 
 class Home extends Component {
   render() {
@@ -12,14 +15,15 @@ class Home extends Component {
           <section className="py-5" id="features">
             <div className="container px-5 my-5">
               <div className="row gx-5">
-                <div className="col-lg-4 mb-5 mb-lg-0">
-                  <h2 className="fw-bolder mb-0">
-                    A better way to start building.
+                <div className="col-lg-4 mb-5 mb-lg-0 bg-dark text-white">
+                  <h2 className="fw-bolder mb-0 hard-skills">
+                    Hard Skills
                   </h2>
                 </div>
-                <div className="col-lg-8">
-                  <div className="row gx-5 row-cols-1 row-cols-md-2">
-                    <div className="col mb-5 h-100">
+                <div className="col-lg-8 list-hard-skills">
+                  <div className="row gx-5 row-cols-1 row-cols-md-4">
+                    <ListHardSkills />
+                    {/* <div className="col mb-5 h-100">
                       <div className="feature bg-success bg-gradient text-white rounded-3 mb-3">
                         <i className="bi bi-grid-1x2-fill"></i>
                       </div>
@@ -58,7 +62,7 @@ class Home extends Component {
                         Paragraph of text beneath the heading to explain the heading.
                         Here is just a bit more text.
                       </p>
-                    </div>
+                    </div> */}
                   </div>
                 </div>
               </div>
