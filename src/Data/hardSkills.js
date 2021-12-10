@@ -1,35 +1,35 @@
 const hardSkills = [
   {
+    id: 1,
     skill: "Unix & Bash",
-    image: "https://www.neoteo.com/wp-content/uploads/2014/09/capture44.png",
   },
   {
+    id: 2,
     skill: "Git e Github",
-    image: "https://alyssonmach.github.io/Minicurso-Git-e-GitHub/img/5.png",
   },
   {
+    id: 3,
     skill: "HTML",
-    image: "https://arquivo.devmedia.com.br/marketing/img/guia-html-38051.png",
   },
   {
+    id: 4,
     skill: "CSS",
-    image: "https://www.somosadd.com.br/wp-content/uploads/2021/05/css-outsystems.png",
   },
   {
+    id: 5,
     skill: "JavaScript",
-    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/800px-Unofficial_JavaScript_logo_2.svg.png",
   },
   {
+    id: 6,
     skill: "Testes Unitários - Jest",
-    image: "https://miro.medium.com/max/796/1*VxBKV4bcUJ4M7WCuCNmHWw.png",
   },
   {
+    id: 7,
     skill: "React",
-    image: "https://hermes.digitalinnovation.one/articles/cover/f60b2c55-e681-42cb-95bc-e9b084da3867.png",
   },
   {
-    skill: "React Testing Library (RTL)",
-    image: "https://frontend-stuff.com/static/7c857cadee053c761fa7e2ca3ccae895/807a7/testing.jpg",
+    id: 8,
+    skill: "React Testing Library",
   },
 ];
 
