@@ -1,24 +1,28 @@
 const softSkills = [
   {
+    id: 1,
     skill: "Autoconhecimento",
-    image: "https://blog.portalpos.com.br/app/uploads/2021/06/autoconhecimento.jpg",
   },
   {
+    id: 2,
     skill: "Empatia",
-    image: "https://www.psicoglobal.com/img/uploads/2019/empatia-cabezas.jpg",
   },
   {
+    id: 3,
     skill: "Resiliência",
-    image: "https://static.significados.com.br/foto/flor-resiliente-no-asfalto-cke.jpg",
   },
   {
+    id: 4,
     skill: "Autogestão",
-    image: "http://www.abrhrs.org.br/blog/wp-content/uploads/2018/09/gestao-equipes-autogestao.jpeg",
   },
   {
+    id: 5,
     skill: "Escuta ativa",
-    image: "https://www.queroevoluir.com.br/wp-content/uploads/2020/09/escuta-ativa.jpg",
   },
+  {
+    id: 6,
+    skill: "Comunicação não violenta"
+  }
 ];
 
 export default softSkills;
