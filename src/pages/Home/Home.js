@@ -1,8 +1,8 @@
 import React, { Component } from "react";
-import fernanda from "../../assets/images/fernanda.jpeg";
 import HardSkillsSection from "./Components/HardSkillsSection/HardSkillsSection";
 import Header from "./Components/Header/Header";
 import SoftSkillsSection from "./Components/SoftSkillsSection/SoftSkillsSection";
+import TestimonialSection from "./Components/TestimonialSection/TestimonialSection";
 import "./home.css";
 
 class Home extends Component {
@@ -14,34 +14,9 @@ class Home extends Component {
 
           <HardSkillsSection />
           <SoftSkillsSection />
+
+          <TestimonialSection />
           
-          {/* Testimonial section */}
-          <div className="py-5 bg-light">
-            <div className="container px-5 my-5">
-              <div className="row gx-5 justify-content-center">
-                <div className="col-lg-10 col-xl-7">
-                  <div className="text-center">
-                    <div className="fs-4 mb-4 fst-italic">
-                      `Frase Motivacional ... alguém lembra alguma???`
-                    </div>
-                    <div className="d-flex align-items-center justify-content-center">
-                      <img
-                        className="rounded-circle me-3"
-                        src={fernanda}
-                        alt="..."
-                        width="150"
-                      />
-                      <div className="fw-bold">
-                        Fernanda Andrade de Carvalho
-                        <span className="fw-bold text-success mx-1">/</span>
-                        Estudante de Desenvolvimento Web na Trybe
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
           {/* Blog preview section */}
           <section className="py-5">
             <div className="container px-5 my-5">
