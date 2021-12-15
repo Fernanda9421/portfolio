@@ -15,7 +15,8 @@ module.exports = {
         "sourceType": "module"
     },
     "plugins": [
-        "react"
+        "react",
+        "prefer-arrow"
     ],
     "rules": {
         "semi": ["error", "always"],
