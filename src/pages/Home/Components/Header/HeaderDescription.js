@@ -9,9 +9,7 @@ class HeaderDescription extends Component {
           Olá, eu sou Fernanda Andrade! =)
         </h1>
         <p className="lead fw-normal text-white-50 mb-4">
-          Quickly design and customize responsive mobile-first sites with
-          Bootstrap, the world`s most popular front-end open source
-          toolkit!
+          É um prazer ter você aqui.
         </p>
       </>
     );
