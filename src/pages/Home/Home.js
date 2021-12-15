@@ -11,14 +11,10 @@ class Home extends Component {
       <>
         <main className="flex-shrink-0">
           <Header />
-
           <HardSkillsSection />
           <SoftSkillsSection />
-
           <TestimonialSection />
-
           <Qualifications />
-
         </main>
       </>
     );
