@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import QualificationsSection from "./QualificationsSection";
 import QualificationsTabs from "./QualificationsTabs";
 
 class Qualifications extends Component {
@@ -21,7 +20,6 @@ class Qualifications extends Component {
             </div>
           </div>
         </section>
-        <QualificationsSection />
       </>
     );
   }
