@@ -8,8 +8,7 @@ class CardSkills extends Component {
     return (
       <div className="card-art">
         <div className="text-center">
-          <h6 className="name-skill">{skill.skill}</h6>
-          <hr />
+          <span className="name-skill">{skill.skill}</span>
         </div>
       </div>
     );
