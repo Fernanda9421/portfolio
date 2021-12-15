@@ -4,7 +4,7 @@ import ListSoftSkills from "../../../../Components/ListSoftSkills/ListSoftSkills
 class SoftSkillsSection extends Component {
   render() {
     return (
-      <section className="py-5" id="features">
+      <section className="py-4" id="features">
         <div className="container px-5 my-5">
           <div className="row gx-5">
             <div className="col-lg-8 list-hard-skills">
@@ -14,6 +14,7 @@ class SoftSkillsSection extends Component {
             </div>
             <div className="col-lg-4 mb-5 mb-lg-0 d-flex flex-column justify-content-center">
               <h2 className="fw-bolder mb-0">
+                <p><i className="bi bi-lightbulb" /></p>
                 Soft Skills
               </h2>
               <span className="d-flex mt-3">Habilidades Comportamentais Desenvolvidas</span>
