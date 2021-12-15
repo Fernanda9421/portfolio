@@ -10,7 +10,7 @@ class TestimonialSection extends Component {
             <div className="col-lg-10 col-xl-7">
               <div className="text-center">
                 <div className="fs-4 mb-4 fst-italic">
-                  `Frase Motivacional ... alguém lembra alguma???`
+                  Você só saberá do que é capaz se sair de sua zona de conforto. Desafie-se!
                 </div>
                 <div className="d-flex align-items-center justify-content-center">
                   <img
