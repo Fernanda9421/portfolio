@@ -16,7 +16,6 @@ module.exports = {
     },
     "plugins": [
         "react",
-        "prefer-arrow"
     ],
     "rules": {
         "semi": ["error", "always"],
