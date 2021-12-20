@@ -1,3 +1,23 @@
 .selected {
   color: #06BC9B !important;
 }
+
+.navbar__header {
+  background-color: rgba(0, 0, 0, .75);
+}
+
+.logo {
+  color: rgba(255,255,255,.55);
+  margin: 0;
+}
+
+.navbarLogo {
+  border-left: 1px solid rgba(255,255,255,.55);
+  padding-left: 8px;
+}
+
+.logo-subtitle {
+  color: azure;
+  margin: 0;
+  font-family: 'Open Sans Condensed', sans-serif;
+}
