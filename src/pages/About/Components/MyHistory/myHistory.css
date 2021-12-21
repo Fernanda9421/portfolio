@@ -1,3 +1,22 @@
-h3 {
-  color: #06BC9B;
+* {
+  font-family: 'Quicksand', sans-serif;
+}
+
+.myHistory__title {
+  color: rgb(43, 71, 92);
+  font-weight: 600;
+}
+
+.myHistory__description {
+  position: absolute;
+  z-index: 1;
+  background-color: rgba(255, 255, 255, .85);
+  border-radius: 15px 50px 30px;
+  margin-left: 430px;
+  padding: 50px;
+}
+
+.myHistory__photo {
+  border: 20px solid rgba(0,0,0, .35);
+  border-radius: 2%;
 }
