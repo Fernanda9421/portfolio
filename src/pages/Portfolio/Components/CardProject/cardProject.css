@@ -1,0 +1,25 @@
+.cardProject__title {
+  text-align: center;
+}
+
+.cardProject__links {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.cardProject__linkProject {
+  text-decoration: none;
+  background-color: gray;
+  color: white;
+  padding: 8px 12px;
+  border-radius: 8px;
+  font-weight: 500;
+}
+
+.cardProject__linkProject:hover {
+  background-color: white;
+  border: 1px solid gray;
+  color: gray;
+  font-weight: 800;
+}
