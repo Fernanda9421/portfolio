@@ -2,10 +2,6 @@
   color: #06BC9B !important;
 }
 
-.navbar__header {
-  background-color: rgba(0, 0, 0, .75);
-}
-
 .logo {
   color: rgba(255,255,255,.55);
   margin: 0;
