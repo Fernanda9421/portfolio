@@ -1,4 +1,4 @@
-.line {
+.description__line {
   border-right: 2px solid rgba(255, 255, 255, .75);
   color: rgba(255, 255, 255, .75);
   font-family: 'Special Elite', cursive;
@@ -26,5 +26,36 @@
   }
   to {
     width: 550px;
+  }
+}
+
+@media screen and (max-width: 490px) {
+  .description__line {
+    font-size: 1em;
+    margin-bottom: 2em;
+  }
+
+  @keyframes typing {
+    from {
+      width: 0;
+    }
+    to {
+      width: 270px;
+    }
+  }
+}
+
+@media screen and (min-width: 491px) and (max-width: 768px) {
+  .description__line {
+    font-size: 1.5em;
+  }
+
+  @keyframes typing {
+    from {
+      width: 0;
+    }
+    to {
+      width: 370px;
+    }
   }
 }
