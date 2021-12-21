@@ -5,7 +5,7 @@ class HeaderDescription extends Component {
   render() {
     return (
       <>
-        <h1 className="line typing-animation">
+        <h1 className="description__line typing-animation">
           Olá, eu sou Fernanda Andrade! =)
         </h1>
         <p className="lead fw-normal text-white-50 mb-4">
