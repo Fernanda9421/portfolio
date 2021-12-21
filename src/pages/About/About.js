@@ -1,8 +1,8 @@
 import React from "react";
 import AboutMe from "./Components/AboutMe/AboutMe";
 import MyHistory from "./Components/MyHistory/MyHistory";
-import GoalsAndDreams from "./Components/GoalsAndDreams/GoalsAndDreams";
 import GetInTouch from "./Components/GetInTouch/GetInTouch";
+import OutOfLinkedin from "./Components/OutOfLinkedin/OutOfLinkedin";
 
 class About extends React.Component {
   render() {
@@ -11,7 +11,7 @@ class About extends React.Component {
         <main className="flex-shrink-0">
           <AboutMe />
           <MyHistory />
-          <GoalsAndDreams />
+          <OutOfLinkedin />
           <GetInTouch />
         </main>
       </>
