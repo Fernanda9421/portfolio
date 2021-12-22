@@ -23,3 +23,8 @@
   color: gray;
   font-weight: 800;
 }
+
+.card__image {
+  max-width: 385px;
+  max-height: 241px;
+}
