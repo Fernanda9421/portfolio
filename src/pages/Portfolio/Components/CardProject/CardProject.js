@@ -10,7 +10,7 @@ class CardProject extends Component {
       <div className="col-lg-6 d-flex justify-content-center">
         <div className="position-relative mb-5">
           <img
-            className="img-fluid rounded-3 mb-3 card__image"
+            className="rounded-3 mb-3 card__image"
             src={project.image}
             alt={project.name}
           />
