@@ -25,6 +25,6 @@
 }
 
 .card__image {
-  max-width: 385px;
-  max-height: 241px;
+  max-width: 95%;
+  height: 70%;
 }
