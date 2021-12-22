@@ -22,9 +22,9 @@ function Portfolio() {
             <h2 className="display-4 fw-bolder mb-4">
               Vamos construir algo juntos
             </h2>
-            <a className="btn btn-lg btn-primary" href="#!">
+            {/* <a className="btn btn-lg btn-primary" href="#!">
               Contato
-            </a>
+            </a> */}
           </div>
         </section>
       </main>
