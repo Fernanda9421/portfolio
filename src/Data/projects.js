@@ -7,7 +7,7 @@ const projects = [
     id: 1,
     name: "Trybe Tunes",
     image: trybeTunes,
-    link: "https://trybetunes-phi.vercel.app/",
+    link: "https://project-trybe-tunes.vercel.app/",
     github: "https://github.com/Fernanda9421/trybe-tunes",
   },
   {
