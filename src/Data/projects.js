@@ -1,5 +1,5 @@
 import pixelsArt from "../assets/projects/pixels-art.png";
-import trybeTunes from "../assets/projects/login.jpg";
+import trybeTunes from "../assets/projects/trybe-tunes.gif";
 import shoppingCart from "../assets/projects/shopping-cart.gif";
 
 const projects = [
